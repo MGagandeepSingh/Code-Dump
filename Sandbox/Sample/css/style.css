@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&family=MuseoModerno:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+
+    /*--cs-background-color-light: #FFFFFF;*/
+    /*--cs-background-color-dark: #050609;*/
+
+    --white: #FFFFFF;
+    --black: #000000;
+
+/*    --cs-primary-color-100: rgba(255, 70, 33, 1);*/
+/*    --cs-primary-color-200: rgba(255, 70, 33, 0.8);*/
+/*    --cs-primary-color-300: rgba(255, 70, 33, 0.6);*/
+/*    --cs-primary-color-400: rgba(255, 70, 33, 0.4);*/
+/*    --cs-primary-color-500: rgba(255, 70, 33, 0.2);*/
+
+/*    --cs-white-100: rgba(255, 255, 255, 1);*/
+/*    --cs-white-200: rgba(255, 255, 255, 0.9);*/
+/*    --cs-white-300: rgba(255, 255, 255, 0.8);*/
+/*    --cs-white-400: rgba(255, 255, 255, 0.7);*/
+/*    --cs-white-500: rgba(255, 255, 255, 0.6);*/
+/*    --cs-white-600: rgba(255, 255, 255, 0.5);*/
+/*    --cs-white-700: rgba(255, 255, 255, 0.4);*/
+/*    --cs-white-800: rgba(255, 255, 255, 0.3);*/
+/*    --cs-white-900: rgba(255, 255, 255, 0.2);*/
+
+/*    --cs-off-color-100: rgba(81, 158, 138, 1);*/
+/*    --cs-off-color-200: rgba(81, 158, 138, 0.8);*/
+/*    --cs-off-color-300: rgba(81, 158, 138, 0.6);*/
+/*    --cs-off-color-400: rgba(81, 158, 138, 0.4);*/
+/*    --cs-off-color-500: rgba(81, 158, 138, 0.2);*/
+
+/*    --cs-shadows-100: rgba(43, 63, 80, 1);*/
+/*    --cs-shadows-200: rgba(43, 63, 80, 0.8);*/
+/*    --cs-shadows-300: rgba(43, 63, 80, 0.6);*/
+/*    --cs-shadows-400: rgba(43, 63, 80, 0.4);*/
+/*    --cs-shadows-500: rgba(43, 63, 80, 0.2);*/
+
+    --cs-primary-text-font: 'Roboto', sans-serif;
+    --cs-primary-text-font-size: 1rem;
+    --cs-primary-text-font-weight: 300;
+    --cs-primary-text-font-lh: 1.6;
+
+
+    --cs-primary-code-font: 'Source Code Pro', monospace;
+    --cs-primary-code-font-size: 1rem;
+    --cs-primary-code-font-weight: 400;
+    --cs-primary-code-font-lh: 1.6;
+
+    --cs-logo-text-font: "MuseoModerno", cursive;
+    --cs-logo-text-font-size: 40px;
+    --cs-logo-text-font-weight: 900;
+
+    --cs-nb-text-font: 'Lexend Deca', sans-serif;
+    --cs-nb-text-font-size: 13px;
+    --cs-nb-text-font-weight: 500;
+}
+
+*, :before, :after {
+    box-sizing: border-box;
+}
+
+body {
+    -webkit-font-smoothing: subpixel-antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-family: var(--cs-primary-text-font);
+    font-size: var(--cs-primary-text-font-size);
+    font-weight: var(--cs-primary-text-font-weight);
+    line-height: var(--cs-primary-text-font-lh);
+    font-feature-settings: "kern";
+    font-kerning: normal;
+}
+
+a,
+a:active,
+a:visited {
+    color: var(--black);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--black);
+    text-decoration: underline;
+}
+
+
+pre code.hljs {
+    border-radius: 10px;
+}
+
+.hljs-copy-button {
+    top: 2.5em;
+}
+
+code {
+    font-family: var(--cs-primary-code-font);
+    font-size: var(--cs-primary-code-font-size);
+    font-weight: var(--cs-primary-code-font-lh);
+}
+
+.inline-code {
+    background-color: var(--black);
+    border-radius: 3px;
+    padding: 1px 8px 2px 8px;
+    color: var(--white);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.logo {
+    font-family: var(--cs-logo-text-font);
+    font-size: var(--cs-logo-text-font-size);
+    font-weight: var(--cs-logo-text-font-weight);
+    padding: 10px;
+}
+
+.navbar {
+    font-family: var(--cs-nb-text-font);
+    font-size: var(--cs-nb-text-font-size);
+    font-weight: var(--cs-nb-text-font-weight);
+    /*border-bottom: 1px solid black;*/
+}
+
+.card {
+    font-size: var(--cs-nb-text-font-size);
+}
+
+.breadcrumb {
+    font-family: var(--cs-primary-text-font);
+    font-size: 14px;
+    font-weight: var(--cs-primary-text-font-weight);
+}
+
+.cs-tooltip {
+    border-bottom: 2px solid dimgrey;
+}

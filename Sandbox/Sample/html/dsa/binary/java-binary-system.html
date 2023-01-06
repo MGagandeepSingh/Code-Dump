@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Google fonts settings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <!-- Highlighter JS -->
+    <link rel="stylesheet" href="../../../packages/highlight/styles/atom-one-dark-reasonable.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.css"/>
+
+    <!-- Style -->
+    <link rel="stylesheet" href="../../../css/style.css">
+
+    <title>Java Binary System</title>
+</head>
+<body>
+
+<!-- Main Body -->
+<!-- Navigation Bar -->
+<nav class="navbar navbar-expand-lg px-5">
+    <div class="container-fluid">
+        <a class="navbar-brand logo" href="#">G</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ms-auto">
+                <a class="nav-link" aria-current="page" href="#">Introduction</a>
+                <a class="nav-link" href="#">About Me</a>
+                <a class="nav-link" href="#">Education & Experience</a>
+                <a class="nav-link" href="#">Projects</a>
+                <a class="nav-link active" href="#">Blog</a>
+            </div>
+        </div>
+    </div>
+</nav>
+<!-- End Navigation Bar -->
+
+<!-- Container -->
+<div class="container my-5">
+
+    <!-- Breadcrumbs -->
+    <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='%236c757d'/%3E%3C/svg%3E&#34;);"
+         aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../../../index.html">Blog</a></li>
+            <li class="breadcrumb-item"><a href="../dsa-index.html">DSA</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Java Binary System</li>
+        </ol>
+    </nav>
+    <!-- End Breadcrumbs -->
+
+    <!-- Content Title -->
+    <div>
+        <div><h1 class="my-4">Java Binary System</h1></div>
+        <div style="margin-top: -25px;">
+            <div style="font-size: 13px; font-weight: 400; color: #C0C0C0; font-style: italic">Updated: 21-Dec-2022
+            </div>
+            <div style="font-size: 13px; font-weight: 400; color: #C0C0C0; font-style: italic">Author: Gagandeep Singh
+            </div>
+        </div>
+    </div>
+    <!-- End Content Title -->
+    <hr/>
+
+    <!-- Blog Section -->
+    <section class="mx-4">
+        <div>
+
+        </div>
+        <p>This section will explain how the values are stored in a data type using the binary values which are required
+            while we look at some of the data structure solving techniques. This will form the base for the
+            binary operators.</p>
+        <p>Looking at java primitive type we say that a particular data type can hold upto these many values.</p>
+        <p>We say that 1 byte stores values from -128 to 127, why does it only stores this many values, what role does
+            binary system play in this.</p>
+        <p>How does Java's Binary representation works.</p>
+        <p>Let's understand how java data types are represented as
+            <span class="cs-tooltip" data-bs-placement="top" title="Values 0 & 1">binary values</span>
+        </p>
+
+        <div class="modal-body row ">
+            <div class="col-md-6 text-center">
+                First Column
+            </div>
+            <div class="col-md-6 text-center">
+                Second Column
+            </div>
+        </div>
+
+    </section>
+    <!-- End Blog Section -->
+
+</div>
+<!-- End Container -->
+<!-- End Main Body -->
+
+<!-- Bootstrap CDN -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+<!-- Highlighter JS -->
+<script src="../../../packages/highlight/highlight.min.js"></script>
+<script src="https://unpkg.com/highlightjs-copy/dist/highlightjs-copy.min.js"></script>
+<script>
+    hljs.highlightAll();
+    hljs.addPlugin(new CopyButtonPlugin());
+    const tooltips = document.querySelectorAll('.cs-tooltip');
+    tooltips.forEach(t => {
+        new bootstrap.Tooltip(t)
+    })
+</script>
+</body>
+</html>
